@@ -1,0 +1,132 @@
+/* Reset */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+/* Body */
+body{
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color:white;
+}
+
+/* Navbar */
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #111;
+    padding: 15px;
+}
+
+.navbar ul li {
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    color: gray;
+}
+
+/* Hero */
+#home {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #222;
+}
+
+#home p {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#home p {
+    font-style: italic;
+}
+
+/* Intro */
+section {
+    padding: 30px;
+    text-align: center;
+}
+
+/* Gallery */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.photo {
+    margin: 15px;
+    text-align: center;
+}
+
+.photo img {
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.photo img {
+    transition: scale(1.05);
+}
+
+/* About */
+#about img {
+    width: 150px;
+    border-radius: 50%;
+    margin: 15px 0;
+    border: 2px solid white;
+}
+
+#about p {
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Contact */
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #111;
+    margin-top: 20px;
+}
