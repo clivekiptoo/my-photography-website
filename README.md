@@ -11,6 +11,7 @@ A simple photography website showacasing favorite photos and biography
 2.open index.html in browser
 
 ## Live Site
+ https://clivekiptoo.github.io/my-photography-website
 
 ## License
 MIT License
